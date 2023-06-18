@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_background"
+    android:orientation="vertical"
+    tools:context=".JobsPage">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="391dp"
+        android:layout_height="773dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jobscard1"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="317dp"
+                        android:layout_height="38dp"
+                        android:text="Web Developer"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="25dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="317dp"
+                        android:layout_height="67dp"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:text="The successful candidate will be responsible for developing and maintaining high-quality web and mobile applications and websites."
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title1">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jobscard2"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="317dp"
+                        android:layout_height="38dp"
+                        android:text="Android App Developer"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="25dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="317dp"
+                        android:layout_height="67dp"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:text="You will work with other Developers and Product Managers throughout the software development life cycle."
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title2">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jobscard3"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="317dp"
+                        android:layout_height="38dp"
+                        android:text="Database Admin"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="25dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="317dp"
+                        android:layout_height="67dp"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:text="Responsible for the design, implementation, maintenance and repair database of IT systems working with all sections within the IT department."
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title3">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jobscard4"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="317dp"
+                        android:layout_height="38dp"
+                        android:text="Tensorflow Expert"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="25dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="317dp"
+                        android:layout_height="67dp"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:text="Create an AI platform to create ad images based on text and have those ads run through campaign on FB/Tiktok/Google and other places."
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title4"
+                        tools:ignore="HardcodedText">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jobscard5"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:layout_width="317dp"
+                        android:layout_height="38dp"
+                        android:text="Graphics Designer"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="25dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="317dp"
+                        android:layout_height="67dp"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:text="As a Graphic Design Intern, you will collaborate closely with the marketing and creative teams, where you will be responsible for a range of tasks, including designing digital and print materials."
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title5">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jobscard6"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/title6"
+                        android:layout_width="317dp"
+                        android:layout_height="38dp"
+                        android:text="Security Specialist"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="25dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="317dp"
+                        android:layout_height="67dp"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:text="You will work closely with the consulting and IT teams, where you will be responsible for a range of tasks."
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title6">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/jobslogout"
+        android:layout_width="303dp"
+        android:layout_height="68dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+        <Button
+            android:id="@+id/logoutjobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:background="@drawable/background_login_btn"
+            android:text="Logout"
+            android:textColor="#ffff"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

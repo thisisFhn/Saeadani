@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "577640121195",
+    "firebase_url": "https://saeadaniproject-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "saeadaniproject",
+    "storage_bucket": "saeadaniproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577640121195:android:90e2093e44f4ee6e7ec22e",
+        "android_client_info": {
+          "package_name": "com.example.saeadaniproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577640121195-vpfn8acjnd1lhunrvovcs3agetpg8kam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNDNQBfAS0GFTOlSoACx_gcxMDqAfivaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577640121195-vpfn8acjnd1lhunrvovcs3agetpg8kam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
